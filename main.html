@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Main page</title>
+    <link rel="stylesheet" href="/app/css/app.css?v=1589328301765">
+    <script>
+        function canUseWebP(){var e=document.createElement("canvas");return!(!e.getContext||!e.getContext("2d"))&&0==e.toDataURL("image/webp").indexOf("data:image/webp")}var root=document.getElementsByTagName("html")[0];canUseWebP()?root.classList.add("ws"):root.classList.add("wn");
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__top">
+                <a class="header__logo-link">
+                    <svg class="icon icon-logo" viewBox="0 0 148 16" alt="Isakov Music">
+                        <use xlink:href="/app/icons/sprite.svg#logo"></use>
+                    </svg>
+                </a>
+                <nav class="header__nav nav">
+                    <ul class="nav__list nav__list_items">
+                        <li class="nav__item"><a class="nav__link" href="#">story</a>
+                        </li>
+                        <li class="nav__item"><a class="nav__link" href="#">facts</a>
+                        </li>
+                        <li class="nav__item"><a class="nav__link" href="#">prices</a>
+                        </li>
+                    </ul>
+                    <ul class="nav__list nav__list_socials">
+                        <li class="nav__social-item"><a class="nav__social-link" href="#">twitter</a>
+                        </li>
+                        <li class="nav__social-item"><a class="nav__social-link" href="#">facebook</a>
+                        </li>
+                        <li class="nav__social-item"><a class="nav__social-link" href="#">instagram</a>
+                        </li>
+                    </ul>
+                </nav><a class="header__start start-btn" href="#">start your journey<span class="start-btn__icon"></span></a>
+            </div>
+            <div class="header__middle">
+                <button class="header__music-toggle" type="button">music off
+                    <div class="header__music-off-icon"></div>
+                </button>
+                <div class="header__text"><span class="header__short-slogan">Passion and Commitment.</span><span class="header__hashtag">#isakovMusic</span>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <p class="header__long-slogan">The better we&nbsp;<i class="header__italic-text">learn music</i>, the bigger&nbsp;<i class="header__italic-text">interest</i>&nbsp;we show.</p><span class="header__scroll-pointer">scroll.</span>
+            </div>
+        </div>
+    </header>
+    <footer class="footer"></footer>
+    <div class="modals modals_recall mfp-hide" id="recall"></div>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/app/js/app.js?v=1589328301781"></script>
+</body>
+
+</html>
